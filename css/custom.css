@@ -400,6 +400,10 @@ body{
     letter-spacing: -0.02em;
     margin: 0;
 }
+.section-title-top h3{
+	
+	color: var(--primary-color);
+}
 
 .section-last-title h1,
 .section-last-title h2{
@@ -449,7 +453,7 @@ header.main-header .header-sticky.active{
 }
 
 .navbar{
-	padding: 20px 0;
+	padding: 15px 0;
 	align-items: center;
 }
 
@@ -688,7 +692,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .hero{
-	padding: 120px 0;
+	padding: 15px 0;
 	background: url('../images/half-circle-img.png') no-repeat bottom right 30px, var(--primary-color);
 	position: relative;
 }
@@ -961,7 +965,7 @@ header.main-header .header-sticky.active{
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
     font-size: 18px;
-    color: var(--accent-color);
+    color: var(--primary-color);
     display: inline-block;
     line-height: normal;
     position: absolute;
@@ -1446,19 +1450,19 @@ header.main-header .header-sticky.active{
 .post-item-body p{
 	font-size: 16px;
 	font-weight: 400;
-	color: var(--contact-and-bar-info-color);
+	color: #444444;
 }
 
 .post-item .btn-readmore a{
 	font-size: 18px;
 	font-weight: 500;
 	text-transform: capitalize;
-	color: var(--accent-color);
+	color: var(--primary-color);
 	transition: all 0.3s ease-out;
 }
 
 .post-item .btn-readmore a:hover{
-	color: var(--primary-color);
+	color: #003122;
 }
 
 .post-item .btn-readmore a i{
@@ -1510,7 +1514,7 @@ header.main-header .header-sticky.active{
 }
 
 .contact-appointment .appointment-content h3{
-	color: var(--secondry-color);
+	color: var(--primary-color);
 	font-size: 32px;
 	text-align: center;
 }
@@ -1898,7 +1902,7 @@ header.main-header .header-sticky.active{
 }
 
 .we-improving{
-	padding: 100px 0;
+	/* padding: 100px 0; */
 	background: var(--primary-color) url('../images/half-circle-2.png') no-repeat center right;
 }
 
@@ -2196,7 +2200,13 @@ header.main-header .header-sticky.active{
 
 .team-content h3{
 	font-size: 16px;
-	color: var(--accent-color);
+	color: #5d8d7e;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+}
+.about-team-content h3{
+	font-size: 16px;
+	color: #5d8d7e;
 	text-transform: capitalize;
 	margin-bottom: 10px;
 }
@@ -2207,12 +2217,24 @@ header.main-header .header-sticky.active{
 	text-transform: capitalize;
 	margin-bottom: 10px;
 }
+.about-team-content h2{
+	font-size: 22px;	
+	color: var(--accent-color);
+	text-transform: capitalize;
+	margin-bottom: 10px;
+}
 
 .team-content h2 a{
 	color: inherit;
 }
+.about-team-content h2 a{
+	color: inherit;
+}
 
 .team-content p{
+	color: #0d311c;
+}
+.about-team-content p{
 	color: var(--contact-and-bar-info-color);
 }
 
@@ -3872,6 +3894,9 @@ header.main-header .header-sticky.active{
 	.team-content h2{
 		font-size: 20px;
 	}
+	.about-team-content h2{
+		font-size: 20px;
+	}
 
 	.our-services{
 		padding: 50px 0 0px;
@@ -4423,6 +4448,9 @@ header.main-header .header-sticky.active{
 	}
 
 	.team-content h2{
+		font-size: 18px;
+	}
+	.about-team-content h2{
 		font-size: 18px;
 	}
 
