@@ -3316,6 +3316,9 @@ header.main-header .header-sticky.active{
 .page-contact-form .section-title{
 	text-align: center;
 }
+.page-contact-form .section-title-top{
+	text-align: center;
+}
 
 .contact-us-form{
 	background-color: var(--primary-color);
