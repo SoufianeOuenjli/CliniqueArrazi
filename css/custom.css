@@ -230,7 +230,7 @@ body{
     content: '\f35a';
     position: absolute;
     top: 50%;
-    right: 0;
+    right: -15px;
     bottom: 0;
     font-family: 'FontAwesome';
     font-size: 18px;
