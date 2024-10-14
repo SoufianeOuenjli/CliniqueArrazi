@@ -910,7 +910,7 @@ header.main-header .header-sticky.active{
 }
 
 .about-video img{
-	filter: brightness(50%);
+	/* filter: brightness(50%); */
 	border-radius: 999px;
 }
 
