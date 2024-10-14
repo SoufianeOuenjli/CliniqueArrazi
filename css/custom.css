@@ -40,6 +40,8 @@
 /*** 	  01. Global Variables	   ***/
 /*************************************/
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root{
 	--body-background				: #FFF7F4;
 	--primary-color					: #016646;
@@ -52,7 +54,7 @@
 	--light-accent-color			: #FEEFE9;
 	--contact-and-bar-info-color	: #d8d8d8;
 	--background-detaill-specialite	: #038159;
-	--default-font					: "Figtree", sans-serif;;
+	--default-font					: "Poppins", sans-serif;;
 }
 
 /************************************/
@@ -581,8 +583,8 @@ header.main-header .header-sticky.active{
 }
 
 .main-menu ul ul li a:hover{
-	color: var(--text-color);
-	background-color: transparent;
+	color: white;
+    background-color: var(--primary-color);
 }
 
 .responsive-menu,
@@ -803,11 +805,11 @@ header.main-header .header-sticky.active{
 
 .home-contact-item.highlighted-box .highlighted-box-title h2{
 	font-size: 32px;
-	color: #042600;
+	color: #016646;
 }
 
 .home-contact-item.highlighted-box .appointment-wrap a{
-	background-color: var(--text-color);
+	background-color: #00412c;
     padding: 20px;
     display: block;
     text-align: center;
@@ -1077,6 +1079,8 @@ header.main-header .header-sticky.active{
 
 .medical-service-item:hover .medical-service-btn .btn-services{
 	color: #003211;
+	background: white;
+    border-top: #038159 solid 1px;
 }
 
 /************************************/
