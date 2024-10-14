@@ -692,7 +692,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .hero{
-	padding: 15px 0;
+	padding: 21px 0;
 	background: url('../images/half-circle-img.png') no-repeat bottom right 30px, var(--primary-color);
 	position: relative;
 }
@@ -763,13 +763,13 @@ header.main-header .header-sticky.active{
 .hero-images .hero-image-2{
 	margin-bottom: 110px;
 }
-
+/* hadi */
 .hero-images .hero-image-1 figure,
 .hero-images .hero-image-2 figure,
 .hero-images .hero-image-1 img,
 .hero-images .hero-image-2 img{
 	border-radius: 999px;
-	aspect-ratio: 1/1.7;
+	/* aspect-ratio: 1/1.7; */
 	object-fit: cover;
 }
 
@@ -883,11 +883,11 @@ header.main-header .header-sticky.active{
 	background-position: center center;
 	background-size: 100% auto;
 }
-
+/* hadi */
 .about-us-image .about-us-image-2 img,
 .about-us-image .about-us-image-1 img{
 	border-radius: 999px;
-	aspect-ratio: 1/1.7;
+	/* aspect-ratio: 1/1.7; */
 	object-fit: cover;
 }
 
